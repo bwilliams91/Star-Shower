@@ -31,13 +31,13 @@ module.exports = {
     ],
   },
   plugins: [
-    new BrowserSyncPlugin({
-      host: "localhost",
-      port: 3000,
-      server: { baseDir: ["dist"] },
-      files: ["./dist/*"],
-      notify: false,
-    }),
+    // new BrowserSyncPlugin({
+    //   host: "localhost",
+    //   port: 3000,
+    //   server: { baseDir: ["dist"] },
+    //   files: ["./dist/*"],
+    //   notify: false,
+    // }),
     new HtmlWebpackPlugin({
       filename: "index.html",
       favicon: "favicon.ico",
