@@ -7,6 +7,7 @@ module.exports = {
   output: {
     path: __dirname + "/dist/",
     filename: "./js/canvas.bundle.js",
+    publicPath: "/",
   },
   module: {
     rules: [
